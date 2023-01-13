@@ -1,0 +1,71 @@
+@media screen and (max-width: 400px) {
+
+    /*HEADER*/
+
+    .encabezado {
+        border: dashed 5px rgb(196, 95, 0);
+    
+            &__título {
+            width: 80%;
+            margin:  0 auto;
+            text-align: center;
+            padding: 2rem ;
+        }
+    
+        &__título--style {
+            font-family:"Libre Baskerville", serif;
+            width: 100%;
+            font-size: 4rem;
+        }
+    }
+    
+    .eslogan {
+    
+        &__style {
+            font-family:"Libre Baskerville", serif;
+            font-size: 1rem;
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+    }
+
+    /*BODY*/
+
+    .card__00 {
+        background-color:$primario;
+        width: 100%;
+        margin: 1rem auto;
+        border-radius: 5%;
+        padding: 1rem;
+        transition: 0.3s ease;
+        
+        &--style {
+            width: 100%;
+        }
+    
+        &--título {
+            font-size: 3rem;
+            text-align: center;
+            font-family:$tipografía ;
+            padding: 0.5rem;
+        }
+    
+        &--imagen {
+            width: 100%;
+            height: 100%;
+            border-radius: 5%;
+        }
+    
+        &--subtítulo {
+            font-family: $tipografía;
+            font-size: 2rem;
+            padding: 0.5rem;
+        }
+    
+        &--texto {
+            font-family: $tipografía;
+            text-align: center;
+            padding: 0.5rem;
+        }
+    }
+}
